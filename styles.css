@@ -1,0 +1,77 @@
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+body {
+  color: #333333;
+  text-align: center;
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #EEEEEE;
+  border-radius: 10px;
+}
+
+li {
+  text-align: left;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+figure {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#title {
+  font-size: 2.5rem;
+  padding-top: 1.5em;
+  font-weight: bold;
+}
+
+main p, #img-caption{
+  font-size: 1rem;
+  padding: 15px 0;
+}
+#tribute-info h2{
+  font-size: 1rem;
+  padding: 40px 0;
+}
+#tribute-info {
+  font-size: 1rem;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#tribute-info li{
+  margin-bottom: 15px;
+  line-height: 1.7em;
+}
+
+#quote p{
+  font-style: italic;
+  text-align: left;
+  line-height: 1.5em;
+  padding: 0;
+}
+
+#quote p:first-child{
+  padding-top: 2em;
+}
+
+#quote p:last-child{
+  padding-bottom: 1em;
+}
+
+#read-more {
+  font-weight: bold;
+  padding-bottom: 2em;
+}
